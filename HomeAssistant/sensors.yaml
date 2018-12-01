@@ -1,0 +1,4 @@
+- platform: command_line
+  name: "Side of Road"
+  command: "python3 /home/homeassistant/work/madison-parking.py"
+  scan_interval: 21600
