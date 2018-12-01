@@ -16,3 +16,5 @@ If working on python installation installed globally
 ```
 $ sudo apt-get install python3-lxml
 ```
+## Home Assistant Sensor
+![HA Sensor](https://github.com/debsahu/lxmlWebScraper/blob/master/HA.png)
