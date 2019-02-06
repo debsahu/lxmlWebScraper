@@ -1,4 +1,9 @@
 - platform: command_line
-  name: "Side of Road"
-  command: "python3 /home/homeassistant/work/madison-parking.py"
+  name: 'Side of Road'
+  command: 'python3 /home/homeassistant/work/madison-parking.py'
   scan_interval: 21600
+
+- platform: scrape
+  resource: 'http://www.cityofmadison.com/residents/winter/parking/alternateSideParking.cfm'
+  name: 'Side of Road 2'
+  select: 'div.clearfix > strong'
